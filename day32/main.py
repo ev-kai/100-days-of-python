@@ -4,11 +4,7 @@ from datetime import datetime  # Import datetime to compare the current local ti
 import smtplib  # Import SMTP to send an email alert.
 import time  # Import time so the program can pause and loop repeatedly.
 
-
-my_email = "vaggeliskairas@gmail.com"  # Store the sender email address used to log in to Gmail.
-my_password = "hzxepvwycrkaeltd"  # Store the password/app password used for SMTP login.
-my_lat = 38.009390  # Store your latitude so the code can compare it with the ISS location.
-my_lng = 23.731209  # Store your longitude so the code can compare it with the ISS location.
+ # Store your longitude so the code can compare it with the ISS location.
 parameters = {  # Create a dictionary with the coordinates used in the API requests.
     "lat": my_lat,  # Set the latitude parameter to your location latitude.
     "lng": my_lng,  # Set the longitude parameter to your location longitude.
